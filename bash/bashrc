@@ -1,0 +1,15 @@
+source ~/.bash_git
+
+export PS1="\[$(tput bold)\]\[$(tput setaf 1)\]~*~ \[$(tput setaf 3)\]\u \[$(tput setaf 2)\]~*~ \[$(tput setaf 4)\]\W\[$(tput setaf 5)\] ~*~ \[$(tput setaf 7)\]\[$(tput setaf 7)\]\[$(tput sgr0)\]"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -Gh'
+
+export NVM_DIR="/Users/eweigert/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
